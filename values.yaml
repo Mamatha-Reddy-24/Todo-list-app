@@ -1,0 +1,6 @@
+replicaCount: 1
+
+image:
+  repository: your-repo/todo-list
+  tag: latest
+  pullPolicy: IfNotPresent

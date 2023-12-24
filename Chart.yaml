@@ -1,0 +1,4 @@
+apiVersion: v2
+name: todo-list
+description: A simple Todo List application
+version: 0.1.0
