@@ -1,6 +1,6 @@
 replicaCount: 1
 
 image:
-  repository: your-repo/todo-list
+  repository: https://github.com/Mamatha-Reddy-24/Todo-list-app/todo-list
   tag: latest
   pullPolicy: IfNotPresent
