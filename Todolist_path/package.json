@@ -6,12 +6,8 @@
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {
-    // Add any dependencies your app needs
-  },
-  "devDependencies": {
-    // Add any development dependencies if necessary
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "keywords": [
     "todo",
     "list",
