@@ -1,6 +1,6 @@
 replicaCount: 1
 
 image:
-  repository: todo-list
+  repository: mamathareddy2496/todo-list-app
   tag: latest
   pullPolicy: IfNotPresent
