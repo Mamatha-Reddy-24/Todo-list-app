@@ -1,0 +1,22 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "description": "A simple Todo List application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    // Add any dependencies your app needs
+  },
+  "devDependencies": {
+    // Add any development dependencies if necessary
+  },
+  "keywords": [
+    "todo",
+    "list",
+    "app"
+  ],
+  "author": "mamathareddy2496",
+  "license": "MIT"
+}
