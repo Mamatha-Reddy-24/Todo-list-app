@@ -1,20 +1,11 @@
-# Use the official Node.js image
+# Use the official Node.js image as a base
 FROM node:latest
 
 # Set the working directory to /app
 WORKDIR /app
 
-# Copy only package.json and package-lock.json into the container at /app
-COPY package*.json ./
-
-# Install dependencies
-RUN npm install --production
-
-# Copy the rest of the application files into the container at /app
+# Copy the entire content of the current directory into the container
 COPY . .
 
-# Make port 80 available to the world outside this container
+# Expose port 80
 EXPOSE 80
-
-# Define the command to run your app
-CMD ["npm", "start"]
