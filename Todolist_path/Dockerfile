@@ -6,6 +6,8 @@ WORKDIR /app
 
 # Copy only package.json to avoid copying unnecessary files
 COPY package.json .
+COPY index.js .
+
 
 # Copy the current directory contents into the container at /app
 #COPY . .
